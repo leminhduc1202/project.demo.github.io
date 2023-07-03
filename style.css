@@ -1,0 +1,28 @@
+h1 {
+    display: flex;
+    justify-content: center;
+}
+
+h1:hover {
+    text-shadow: red -3px 0, cyan 3px 0;
+}
+
+button {
+    margin: 1%;
+}
+
+button:hover {
+    text-shadow: red -3px 0, cyan 3px 0;
+}
+
+div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+body {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
