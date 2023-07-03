@@ -3,7 +3,7 @@ var buttonInfo = [
     { label: "Age Calculator", filePath: "project_demo/age_calculator/age-index.html" },
     { label: "Amine Pics", filePath: "project_demo/amine_pics_generator/amine-index.html" },
     { label: "Animated Search Bar", filePath: "project_demo/animated_search_bar/animated_index.html" },
-    { label: "Button 3", filePath: "file3.html" }
+    { label: "Auto Text", filePath: "project_demo/auto_text_effect_animation/auto_text_index.html" }
   ];
   
   var listContainer = document.createElement("div");
