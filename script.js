@@ -27,6 +27,10 @@ var buttonInfo = [
     label: "Blurred Popup",
     filePath: "project_demo/background_popup/popup_index.html",
   },
+  {
+    label: "BMI Calculator",
+    filePath: "project_demo/bmi_calculator/bmi_index.html",
+  },
 ];
 
 var listContainer = document.createElement("div");
