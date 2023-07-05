@@ -19,6 +19,10 @@ var buttonInfo = [
     label: "Image Scroll Effect",
     filePath: "project_demo/background_image_scroll_effect/index.html",
   },
+  {
+    label: "Basic Calculator",
+    filePath: "project_demo/basic_calculator/calculator_index.html",
+  },
 ];
 
 var listContainer = document.createElement("div");
