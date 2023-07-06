@@ -31,6 +31,10 @@ var buttonInfo = [
     label: "BMI Calculator",
     filePath: "project_demo/bmi_calculator/bmi_index.html",
   },
+  {
+    label: "Currency Converter",
+    filePath: "project_demo/currency_converter/currency_index.html",
+  },
 ];
 
 var listContainer = document.createElement("div");
