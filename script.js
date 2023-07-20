@@ -35,6 +35,10 @@ var buttonInfo = [
     label: "Currency Converter",
     filePath: "project_demo/currency_converter/currency_index.html",
   },
+  {
+    label: "Matrix Effect",
+    filePath: "project_demo/matrix/matrix_index.html",
+  },
 ];
 
 var listContainer = document.createElement("div");
