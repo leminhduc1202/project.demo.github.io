@@ -19,6 +19,26 @@ var buttonInfo = [
     label: "Image Scroll Effect",
     filePath: "project_demo/background_image_scroll_effect/index.html",
   },
+  {
+    label: "Basic Calculator",
+    filePath: "project_demo/basic_calculator/calculator_index.html",
+  },
+  {
+    label: "Blurred Popup",
+    filePath: "project_demo/background_popup/popup_index.html",
+  },
+  {
+    label: "BMI Calculator",
+    filePath: "project_demo/bmi_calculator/bmi_index.html",
+  },
+  {
+    label: "Currency Converter",
+    filePath: "project_demo/currency_converter/currency_index.html",
+  },
+  {
+    label: "Matrix Effect",
+    filePath: "project_demo/matrix/matrix_index.html",
+  },
 ];
 
 var listContainer = document.createElement("div");
