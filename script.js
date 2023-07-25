@@ -1,4 +1,4 @@
-var buttonInfo = [
+const buttonInfo = [
   {
     label: "Age Calculator",
     filePath: "project_demo/age_calculator/age-index.html",
@@ -41,11 +41,11 @@ var buttonInfo = [
   },
 ];
 
-var listContainer = document.createElement("div");
+const listContainer = document.createElement("div");
 listContainer.className = "list-container";
 
 buttonInfo.forEach(function (button) {
-  var buttonElement = document.createElement("button");
+  const buttonElement = document.createElement("button");
   buttonElement.textContent = button.label;
   buttonElement.onclick = function () {
     openFile(button.filePath);
@@ -54,7 +54,7 @@ buttonInfo.forEach(function (button) {
   listContainer.appendChild(buttonElement);
 });
 
-var rootElement = document.getElementById("root");
+const rootElement = document.getElementById("root");
 rootElement.appendChild(listContainer);
 
 function openFile(filePath) {

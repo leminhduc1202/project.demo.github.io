@@ -1,0 +1,29 @@
+
+div {
+    width: 100px;
+    height: 100px;
+    background-color: #FFCC00;
+    border-radius: 10px;
+    animation: rotate 2s infinite linear alternate;
+    animation-play-state: paused;
+}
+
+div:hover,
+div:focus {
+    animation-play-state: running;
+}
+
+@keyframes rotate {
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
